@@ -14,8 +14,9 @@
            <img *ngIf="inmueble.pictures[0].hasOwnProperty('url')"
            src="{{inmueble.pictures[0].url}}">
          <ion-card-content>
-           <h2 *ngIf="inmueble.geo.hasOwnProperty ('name')">{{inmueble.geo.name}}</h2>
            <h2 *ngIf="inmueble.price.hasOwnProperty ('formattedAmount')">{{inmueble.price.formattedAmount}}</h2>
+           <p *ngIf="inmueble.geo.hasOwnProperty ('name')">{{inmueble.geo.name}}</p>
+           <p *ngIf="inmueble.geo.hasOwnProperty ('displayName')">{{inmueble.geo.displayName}}</p>
          </ion-card-content>
         </ion-card>
        </ion-col>

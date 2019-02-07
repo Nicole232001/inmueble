@@ -26,4 +26,5 @@ inmuebles=[];
 // titulo 
 // precio  ads.price.formattedAmount
 // ubicación  ads.geo.name
+          //   geo.map.displayName
 // imagen  ads.pictures.url
